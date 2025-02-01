@@ -1,15 +1,33 @@
-# ECE 281 Lab 1 Prelab
+ds# ECE 281 Lab 1 Prelab
 
 ## Prelab questions
 
 ### Truth Table
 
 Insert your truth table here
+| Month | A | B | C | D | Y |
+|-------|---|---|---|---|---|
+|       | 0 | 0 | 0 | 0 | X |
+| Jan   | 0 | 0 | 0 | 1 | 1 |
+| Feb   | 0 | 0 | 1 | 0 | 0 |
+| March | 0 | 0 | 1 | 1 | 1 |
+| April | 0 | 1 | 0 | 0 | 0 |
+| May   | 0 | 1 | 0 | 1 | 1 |
+| June  | 0 | 1 | 1 | 0 | 0 |
+| July  | 0 | 1 | 1 | 1 | 1 |
+| Aug   | 1 | 0 | 0 | 0 | 1 |
+| Sep   | 1 | 0 | 0 | 1 | 0 |
+| Oct   | 1 | 0 | 1 | 0 | 1 |
+| Nov   | 1 | 0 | 1 | 1 | 0 |
+| Dec   | 1 | 1 | 0 | 0 | 1 |
+|       | 1 | 1 | 0 | 1 | X |
+|       | 1 | 1 | 1 | 0 | X |
+|       | 1 | 1 | 1 | 1 | X |
 
 ### Boolean Equation
 
 $$
-Y = ?
+Y = A'D + AD'
 $$
 
 ### Digital Simulations
